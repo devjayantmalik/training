@@ -796,9 +796,39 @@ Add the correct display in Chrome and Safari.
 
       @media (min-width: 1536px) {
       }
+
+      main {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+      }
+
+      .heading {
+        font-size: 22px;
+      }
+
+      .btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: navy;
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        border-radius: 4px;
+      }
+
+      .mb-4 {
+        margin-bottom: 15px;
+      }
+
+      .mb-2 {
+        margin-bottom: 10px;
+      }
     </style>
   </head>
-  <body>
+  <body class="bg-white">
     <main class="container mx-auto py-6">
       <section class="text-gray-600 relative">
         <div class="absolute inset-0 bg-gray-300">
@@ -849,21 +879,7 @@ Add the correct display in Chrome and Safari.
                 class="input"
               />
             </div>
-            <button
-              class="
-                text-white
-                bg-indigo-500
-                border-0
-                py-2
-                px-6
-                focus:outline-none
-                hover:bg-indigo-600
-                rounded
-                text-lg
-              "
-            >
-              Signup
-            </button>
+            <button class="btn">Signup</button>
             <p class="text-xs text-gray-500 mt-3">
               You account will be created once you hit the submit button.
             </p>
