@@ -64,18 +64,19 @@
         padding: 20px;
       }
 
-      label {
+      .label {
         color: rgba(75, 85, 99, 1);
         font-size: 0.875rem /* 14px */;
         line-height: 1.25rem; /* 20px */
         margin-bottom: 5px;
       }
 
-      input {
+      .input {
         width: 100%;
         background-color: rgb(243, 244, 246);
         border-radius: 0.25rem; /* 4px */
         outline: none;
+        font-size: 1.1rem;
         padding-top: 0.25rem; /* 4px */
         padding-bottom: 0.25rem; /* 4px */
         padding-left: 0.75rem; /* 12px */
@@ -87,7 +88,7 @@
         margin-bottom: 10px;
       }
 
-      button {
+      .button {
         border: 0;
         padding-top: 0.5rem /* 8px */;
         padding-bottom: 0.5rem /* 8px */;
@@ -102,6 +103,10 @@
       .centered {
         margin-left: auto;
         margin-right: auto;
+      }
+
+      .inline-block {
+        display: inline-block;
       }
     </style>
   </head>
@@ -120,18 +125,24 @@
         <h2>Create new account</h2>
         <form action="/submit-url" method="GET">
           <div>
-            <label for="fname">First name</label>
-            <input type="text" name="fname" placeholder="Jayant" />
-          </div>
-
-          <div>
-            <label for="lname">Last name</label>
-            <input type="text" name="lname" placeholder="Malik" />
-          </div>
-
-          <div>
-            <label for="email">Email</label>
+            <label class="label" for="fname">First name</label>
             <input
+              class="input"
+              type="text"
+              name="fname"
+              placeholder="Jayant"
+            />
+          </div>
+
+          <div>
+            <label class="label" for="lname">Last name</label>
+            <input class="input" type="text" name="lname" placeholder="Malik" />
+          </div>
+
+          <div>
+            <label class="label" for="email">Email</label>
+            <input
+              class="input"
               type="email"
               name="email"
               placeholder="username@example.com"
@@ -139,19 +150,56 @@
           </div>
 
           <div>
-            <label for="password">Password</label>
+            <label class="label" for="password">Password</label>
             <input
+              class="input"
               type="password"
               name="password"
               placeholder="Secure Password"
             />
           </div>
 
-          <button type="submit">Submit</button>
+          <div>
+            <input type="checkbox" />
+            <label for="remember">Log me in automatically?</label>
+          </div>
+
+          <button class="button" type="submit">Submit</button>
         </form>
       </section>
 
-      <section></section>
+      <section>
+        <h3>Form Controls</h3>
+        <form action="">
+          <div>
+            <label for="gender">Gender</label>
+
+            <fieldset>
+              <label for="gender">
+                <input type="radio" name="gender" value="male" /> Male
+              </label>
+              <label for="gender">
+                <input type="radio" name="gender" value="female" /> Female
+              </label>
+              <label for="gender">
+                <input type="radio" name="gender" value="other" /> Other
+              </label>
+            </fieldset>
+          </div>
+
+          <div>
+            <label class="label" for="email2">Change Password email</label>
+            <input
+              class="input"
+              type="email"
+              name="email2"
+              id="email2"
+              disabled
+              value="demo@example.com"
+            />
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
