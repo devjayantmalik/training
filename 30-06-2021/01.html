@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to CSS</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Simple Calculator</h1>
+        <form
+          onsubmit="return false;"
+          oninput="result.value=parseInt(num1.value || 0) + parseInt(num2.value || 0);"
+        >
+          <div>
+            <label for="num1">Number 1</label>
+            <input type="number" name="num1" />
+          </div>
+
+          <div>
+            <label for="num1">Number 2</label>
+            <input type="number" name="num2" />
+          </div>
+
+          <div>
+            <label for="result">Result</label>
+            <output name="result" for="num1 num2">0</output>
+          </div>
+        </form>
+      </section>
+
+      <section>
+        <h1>Simple Calculator</h1>
+        <form
+          onsubmit="return false;"
+          oninput="result.value=parseInt(num1.value) + parseInt(num2.value);"
+        >
+          <div>
+            <label for="num1">Number 1</label>
+            <input type="number" name="num1" />
+          </div>
+
+          <div>
+            <label for="num1">Number 2</label>
+            <input type="number" name="num2" />
+          </div>
+
+          <div>
+            <label for="result">Result</label>
+            <output name="result" for="num1 num2"></output>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
