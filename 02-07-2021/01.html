@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Example</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h2 {
+        margin-bottom: 10px;
+      }
+      body {
+        background-color: #eee;
+      }
+      .container {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      .b-solid {
+        border: 2px solid brown;
+      }
+      .b-dashed {
+        border: 2px dashed brown;
+      }
+      .b-double {
+        border: 2px double brown;
+      }
+      .b-inset {
+        border: 2px inset brown;
+      }
+      .b-outset {
+        border: 2px outset brown;
+      }
+
+      .d-none {
+        text-decoration: none;
+      }
+      .d-underline {
+        text-decoration: underline;
+      }
+      .d-uppercase {
+        text-transform: uppercase;
+      }
+      .d-lowercase {
+        text-transform: lowercase;
+      }
+      .d-capitalize {
+        text-transform: capitalize;
+      }
+      .spacing-word-20 {
+        word-spacing: 20px;
+      }
+      .spacing-letter-20 {
+        letter-spacing: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <h2>Borders</h2>
+        <p class="b-solid">This is the text content with solid border.</p>
+        <p class="b-dashed">This is the text content with dashed border.</p>
+        <p class="b-double">This is the text content with double border.</p>
+        <p class="b-inset">This is the text content with inset border.</p>
+        <p class="b-outset">This is the text content with outset border.</p>
+      </section>
+
+      <section>
+        <h2>Text Decoration</h2>
+        <p class="d-none">This is text content with no decoration.</p>
+        <p class="d-underline">
+          This is text content with underline decoration.
+        </p>
+        <p class="d-uppercase">
+          This is text content with uppercase decoration.
+        </p>
+        <p class="d-lowercase">
+          This is text content with lowercase decoration.
+        </p>
+        <p class="d-capitalize">
+          This is text content with capitalize decoration.
+        </p>
+      </section>
+      <section>
+        <h2>Spacing</h2>
+        <p class="spacing-word-20">
+          This is text content with 20px word spacing.
+        </p>
+        <p class="spacing-letter-20">
+          This is text content with 20px letter spacing.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

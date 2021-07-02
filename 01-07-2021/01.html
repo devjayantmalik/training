@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Padding and Margin</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        background-color: #eee;
+      }
+      main {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+      }
+      div {
+        border: 2px solid gray;
+      }
+      .margin,
+      .padding {
+        border: 2px solid brown;
+      }
+      .margin {
+        margin: 20px;
+      }
+      .padding {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Margin Example</h1>
+
+        <div>
+          <p class="margin">This is content of paragraph tag with margin.</p>
+        </div>
+        <div>
+          <p class="padding">This is content of paragraph tag with padding.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
