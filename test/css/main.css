@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  background-color: #ececec;
+}
+
+/* Categories page */
+
+section {
+  max-width: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  margin: 20px;
+  border: 2px solid black;
+}
+.card img {
+  width: 100%;
+}
+
+.card h2,
+.card p {
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px gray, 0 0 10px gray, 0 0 10px gray, 0 0 10px gray;
+}
+
+.card img:hover {
+  opacity: 60%;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 6px double red;
+  display: inline-block;
+}
+
+.description {
+  font-size: 20px;
+}
+
+/* Footer styles */
+
+.footer {
+  min-height: 100px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 50px;
+  flex-wrap: wrap;
+}
+
+.footer .about {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .about img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.footer .about h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer nav {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  margin-right: 50px;
+}
+.footer nav:first-of-type {
+  margin-left: 50px;
+}
+
+.footer nav h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.footer nav a {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* Feedback form */
+
+.form {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.form div {
+  margin-bottom: 20px;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.form input:active,
+.form textarea:active {
+  border: 2px solid navy;
+}
+
+.form button {
+  padding: 10px 20px;
+  border: 2px solid brown;
+  background-color: #ececec;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form button:hover {
+  background-color: #fff;
+}
+
+.form div small {
+  margin-top: 5px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.about-image {
+  width: 100%;
+  display: block;
+  object-fit: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px gray, 0 0 10px gray, 0 0 10px gray, 0 0 10px gray;
+}

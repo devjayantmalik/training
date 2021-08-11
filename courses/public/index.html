@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lion Heart</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header class="text-gray-600">
+      <div
+        class="
+          container
+          mx-auto
+          flex flex-wrap
+          p-5
+          flex-col
+          md:flex-row
+          items-center
+        "
+      >
+        <a
+          class="
+            flex
+            title-font
+            font-medium
+            items-center
+            text-gray-900
+            mb-4
+            md:mb-0
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-10 h-10 p-2 rounded-full"
+            viewBox="0 0 698.696 698.696"
+          >
+            <defs />
+            <path
+              d="M428.368 326.508c15.021-1.803 26.04-12.887 24.613-24.763-.713-5.922-4.391-10.922-9.761-14.217 14.528-14.21 21.643-21.001 21.643-21.001h-46.944c-17.239 0-31.216 13.977-31.216 31.216V343.5c7.68-7.673 14.769-14.742 21.293-21.222 5.442 3.458 12.687 5.151 20.372 4.23zM245.714 301.746c-1.427 11.869 9.593 22.953 24.614 24.763 7.692.921 14.937-.766 20.372-4.229a9920.955 9920.955 0 0121.292 21.222v-45.757c0-17.239-13.977-31.216-31.216-31.216h-46.944s7.122 6.784 21.643 21.001c-5.37 3.293-9.047 8.294-9.761 14.216z"
+            />
+            <path
+              d="M67.212 183.892c-18.394 41.166-26.216 89.523-23.251 143.732l1.063 19.502 26.248-6.297c-.02 16.11 1.07 39.621 5.831 66.395 5.156 28.992 13.582 55.895 25.035 79.944 14.502 30.444 33.908 56.381 57.678 77.077l15.592 13.575 8.951-17.194a480.203 480.203 0 0030.989 39.966c27.493 31.832 72.044 74.295 128.159 95.86l5.837 2.244 5.844-2.244c56.109-21.56 100.66-64.028 128.153-95.86a480.203 480.203 0 0030.989-39.966l8.95 17.194 15.592-13.575c23.771-20.696 43.176-46.626 57.678-77.077 11.454-24.056 19.88-50.952 25.036-79.944 4.76-26.773 5.85-50.291 5.83-66.395l26.248 6.297 1.07-19.502c2.964-54.208-4.857-102.566-23.252-143.738-14.897-33.344-36.657-61.946-64.67-85.016-19.879-16.37-40.004-27.558-56.86-35.069l46.243-20.443-26.015-16.286C501.482 9.113 465.94 0 424.535 0c-34.998 0-64.112 6.616-75.184 9.521C338.273 6.616 309.159 0 274.167 0 232.769 0 197.22 9.113 168.52 27.072l-26.015 16.286 46.244 20.443c-16.85 7.511-36.982 18.699-56.854 35.069-28.025 23.076-49.785 51.678-64.683 85.022zm8.711 122.329c-.045-23.576 2.29-45.699 6.94-66.227 19.794-.681 36.515 4.119 49.824 14.353 10.118 7.776 15.313 16.578 16.915 19.646-4.891 23.33-5.104 40.679-5.111 42.326l-.033 6.343 18.718 20.566a108.28 108.28 0 00-10.371 3.71c-14.009 5.824-31.229 16.545-46.367 36.178-4.287-35.367-1.894-61.239-1.868-61.524l2.257-22.785-30.904 7.414zM228.715 194.14c28.375-23.103 67.9-29.828 117.464-19.989l3.171.629 3.172-.629c49.564-9.839 89.082-3.113 117.464 19.989 42.32 34.453 49.986 96.703 51.361 116.277l-55.72 61.226c-11.759-18.743-23.725-30.931-24.73-31.942l-23.089 22.973c.104.104 10.475 10.688 20.391 26.527 8.951 14.281 19.387 35.879 18.297 57.639-.791 15.819-7.427 29.737-20.223 42.333l-7.764-2.86-73.737-27.169c1.35-10.682 4.385-23.764 11.221-28.589 12.304-8.685 33.292-22.435 0-24.607 0 0-7.958 4.346-16.649 4.346-8.685 0-16.643-4.346-16.643-4.346-33.292 2.173-12.304 15.923 0 24.607 6.836 4.825 9.871 17.907 11.22 28.589l-73.73 27.163-7.764 2.86c-12.764-12.563-19.399-26.449-20.216-42.217-2.198-42.385 38.292-83.881 38.701-84.296l-11.564-11.467 11.545 11.486-23.082-22.973c-1.005 1.012-12.972 13.199-24.73 31.942l-55.719-61.226c1.367-19.605 9.046-81.831 51.353-116.276zm171.712 337.267c-.396.24-1.044.513-2.601.513-3.729 0-9.353-1.596-15.307-3.282-9.086-2.574-20.397-5.778-33.168-5.778s-24.082 3.204-33.168 5.778c-5.954 1.687-11.577 3.282-15.306 3.282-1.55 0-2.206-.272-2.595-.513-1.706-2.426-2.049-11.207-.597-20.527l51.666-19.036 51.66 19.036c1.369 8.859 1.245 17.939-.584 20.527zm166.504-57.768c-9.288 19.393-20.819 36.605-34.4 51.399l-16.15-30.988-14.762 26.144c-.155.272-15.838 27.863-43.39 59.65-23.984 27.668-61.984 64.132-108.877 83.849-46.893-19.717-84.899-56.181-108.877-83.849-27.552-31.787-43.234-59.378-43.384-59.644l-14.749-26.216-16.163 31.048c-13.588-14.788-25.113-32.008-34.401-51.4-6.207-12.952-11.421-26.903-15.618-41.69 20.508-51.88 57.743-59.637 72.628-60.584l28.654 31.488c-5.241 14.029-8.568 29.537-7.764 45.608 1.388 27.701 14.463 51.906 38.856 71.947l7.212 5.921 8.438-3.106c.272 12.939 3.755 26.891 15.501 34.926 6.148 4.21 13.276 6.337 21.196 6.337 8.256 0 16.357-2.296 24.186-4.514 7.887-2.238 16.046-4.547 24.289-4.547 8.244 0 16.396 2.309 24.29 4.547 7.835 2.218 15.936 4.514 24.186 4.514 7.912 0 15.047-2.134 21.195-6.337 11.746-8.035 15.223-21.986 15.501-34.926l8.438 3.106 7.212-5.921c24.394-20.041 37.469-44.246 38.856-71.947.805-16.071-2.522-31.579-7.764-45.608l28.615-31.442c5.455.376 14.017 1.641 23.518 5.597 21.845 9.087 38.364 27.564 49.156 54.935-4.206 14.793-9.421 28.744-15.628 41.703zm25.008-174.799l2.199 22.732c.032.305 2.426 26.177-1.861 61.544-15.138-19.639-32.364-30.354-46.367-36.178a108.28 108.28 0 00-10.371-3.71l18.719-20.566-.033-6.343c-.006-1.647-.22-19.01-5.117-42.365 2.983-5.896 20.313-35.393 66.771-33.927 4.644 20.521 6.959 42.638 6.92 66.201l-30.86-7.388zm9.814-101.665a215.84 215.84 0 014.3 10.364c-28.946 1.395-48.98 12.174-61.608 22.337a96.74 96.74 0 00-6.72 5.941c-9.352-23.563-24.017-48.008-47.009-66.791-.688-.564-1.395-1.109-2.095-1.654 3.496-13.399 14.612-36.95 49.96-49.266a206.215 206.215 0 017.518 5.909c24.107 19.84 42.832 44.454 55.654 73.16zM216.788 40.595c17.032-5.331 36.217-8.023 57.38-8.023 38.785 0 70.144 9.333 70.436 9.424l4.748 1.434 4.729-1.427c.311-.097 31.67-9.43 70.455-9.43 21.163 0 40.348 2.692 57.38 8.023l-71.39 31.566 51.641 9.657c.278.052 18.77 3.645 43.124 15.787-20.69 11.953-32.65 27.175-39.473 39.732a97.885 97.885 0 00-5.812 12.816c-30.788-13.679-67.842-16.571-110.661-8.548-42.819-8.023-79.873-5.137-110.661 8.548a98.243 98.243 0 00-5.812-12.816c-6.816-12.543-18.763-27.753-39.421-39.7 24.27-12.063 42.819-15.767 43.072-15.819l51.64-9.657-71.375-31.567zm-65.286 84.322a207.9 207.9 0 018.626-6.816c20.054 6.933 34.634 18.167 43.416 33.499a64.709 64.709 0 016.46 15.819c-.675.532-1.356 1.057-2.024 1.602-22.992 18.783-37.65 43.228-47.009 66.791a98.85 98.85 0 00-6.719-5.941c-12.622-10.157-32.65-20.936-61.589-22.331a216.818 216.818 0 013.904-9.515c12.641-28.629 31.125-53.223 54.935-73.108z"
+            />
+          </svg>
+          <span class="ml-3 text-xl">Lion Heart</span>
+        </a>
+        <nav
+          class="
+            md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400
+            flex flex-wrap
+            items-center
+            text-base
+            justify-center
+          "
+        >
+          <a href="./index.html" class="mr-5 hover:text-gray-900">Home</a>
+          <a href="./courses.html" class="mr-5 hover:text-gray-900">Courses</a>
+          <a href="./categories.html" class="mr-5 hover:text-gray-900">Categories</a>
+          <a href="./cart.html" class="mr-5 hover:text-gray-900">Cart</a>
+        </nav>
+        <nav class="md:ml-auto sm:mr-auto">
+          <a href="./signin.html" class="mr-5 hover:text-gray-900">Signin</a>
+          <a href="./signup.html" class="mr-5 hover:text-gray-900"
+            >Create account</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="py-12 md:py-24 bg-gray-100">
+        <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+          <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
+            <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">Lion Heart</h1>
+            <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">A complete course managment platform with modern ux and strong infrastructure.</p>
+            <form class="" onsubmit="return false;">
+              <div class="relative mb-4">
+                <label for="name" class="label">Your Email</label>
+                <input type="text" id="name" name="name" class="input" />
+              </div>
+              <button
+              class="
+              text-white
+              bg-indigo-500
+              border-0
+              py-2
+              px-6
+              focus:outline-none
+              hover:bg-indigo-600
+              rounded
+              text-lg
+              "
+              >
+              Join us
+            </button>
+          </form>
+           
+          </div>
+          <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
+            <img src="./images/hero.jpg" class="rounded-lg shadow-2xl" alt="">
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Platform Features -->
+      <section class="section" id="features">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Lion Heart Features</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">We provide complete course management platform. Check out, what we offer?</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">High Speed bandwidth</h2>
+                <p class="leading-relaxed text-base">Keep your courses alive 24x7 with lightning speed access.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Video Editor</h2>
+                <p class="leading-relaxed text-base">Edit your videos in the cloud with our cloud editor.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Teams</h2>
+                <p class="leading-relaxed text-base">Let your team manage your course publication or editing with fine controlled permissions.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                  </svg>
+                </div>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">CDN</h2>
+                <p class="leading-relaxed text-base">We offer CDN in 30+ countries, to serve your content with lightning speed and reduce bandwidth consumption.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                  </svg>
+                </div>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Dark Mode</h2>
+                <p class="leading-relaxed text-base">The feature is currently under development.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Security</h2>
+                <p class="leading-relaxed text-base">Request file uploads from your students, with cloud virus scanning support.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Latest courses section. -->
+      <section class="section">
+      <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1
+                class="
+                  sm:text-3xl
+                  text-2xl
+                  font-medium
+                  title-font
+                  mb-2
+                  text-gray-900
+                "
+              >
+                Most Popular Courses
+              </h1>
+              <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+            </div>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/web-development.jpg"
+                  alt="arduino"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 20,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Complete Web Development Course
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Complete web development course is presented by Jayant Malik.
+                  You will see the international standard of web development in
+                  this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/video-marketing.jpg"
+                  alt="content"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 8,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Video Marketing for Professionals
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Complete web development course is presented by Jayant Malik.
+                  You will see the international standard of web development in
+                  this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/video-editing.jpg"
+                  alt="content"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 5,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Introduction to DaVinci Editor
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Complete video editing course is presented by Jayant Malik.
+                  You will see the international standard of video editing in
+                  this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/seo.jpg"
+                  alt="content"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 15,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Google Search Engine Optimisation
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Seo skills in the tech presented by Jayant Malik.
+                  You will see the ease of website ranking for performing seo in
+                  this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/robotics.jpg"
+                  alt="content"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 10,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Robotics on the Wheels
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Robotics on the Wheels is presented by Jayant Malik. You will learn to master the essential skills of a robot engineer in this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/collaborative-work.jpg"
+                  alt="content"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 20,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Collaborative Workforce Engineering
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Collaborative Workforce Engineering course is presented by Jayant Malik.
+                  You will see the international standard of content in
+                  this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/boigenetics.jpg"
+                  alt="content"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 13,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Bio Genetics - Rectification in Genomes
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Bio genetics course is presented by Jayant Malik.
+                  You will see the international standard of content in
+                  this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="./images/courses/arduino.jpg"
+                  alt="content"
+                />
+                <h3
+                  class="
+                    tracking-widest
+                    text-indigo-500 text-xs
+                    font-medium
+                    title-font
+                  "
+                >
+                  Rs. 10,000
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Arduino | The Future Vehicle
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Arduino The Future Vehicle course is presented by Jayant Malik.
+                  You will see the international standard of content in
+                  this course.
+                </p>
+                <a href="./watch.html" class="text-indigo-500 inline-flex items-center mt-4"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Team section -->
+      <section class="section">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Here is our team, that made this project possible.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/team/jayant.png">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Jayant Malik</h2>
+                  <h3 class="text-gray-500 mb-3">International Senior Software Engineer</h3>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/team/mohit.png">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Mohit Sharma</h2>
+                  <h3 class="text-gray-500 mb-3">Frontend Engineer</h3>
+                  </span>
+                </div>
+              </div>
+            </div>
+             
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/team/shaurya.png">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Shaurya Bhatnagar</h2>
+                  <h3 class="text-gray-500 mb-3">International AI/ML Specialist</h3>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/team/rupesh.png">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Rupesh</h2>
+                  <h3 class="text-gray-500 mb-3">Frontend Engineer</h3>
+                  </span>
+                </div>
+              </div>
+            </div>
+           
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">It's been a pleasure for me to congratulate my nation to be on this remarkable and future changing technology, <em>Lion Heart</em>. About 60% youth of my nation has benefited from this movement of digital education. Lion Heart has helped the country during this pandemic crisis.</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="./images/avatars/avatar1.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Methew Johnson</span>
+                    <span class="text-gray-500 text-sm">Head of Defense, USA</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">It's been a pleasure for me to congratulate my nation to be on this remarkable and future changing technology, <em>Lion Heart</em>. About 60% youth of my nation has benefited from this movement of digital education. Lion Heart has helped the country during this pandemic crisis.</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="./images/avatars/avatar2.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Belli Getty</span>
+                    <span class="text-gray-500 text-sm">NASA, USA</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer class="section">
+        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-10 h-10 p-2 rounded-full"
+              viewBox="0 0 698.696 698.696"
+            >
+              <defs />
+              <path
+                d="M428.368 326.508c15.021-1.803 26.04-12.887 24.613-24.763-.713-5.922-4.391-10.922-9.761-14.217 14.528-14.21 21.643-21.001 21.643-21.001h-46.944c-17.239 0-31.216 13.977-31.216 31.216V343.5c7.68-7.673 14.769-14.742 21.293-21.222 5.442 3.458 12.687 5.151 20.372 4.23zM245.714 301.746c-1.427 11.869 9.593 22.953 24.614 24.763 7.692.921 14.937-.766 20.372-4.229a9920.955 9920.955 0 0121.292 21.222v-45.757c0-17.239-13.977-31.216-31.216-31.216h-46.944s7.122 6.784 21.643 21.001c-5.37 3.293-9.047 8.294-9.761 14.216z"
+              />
+              <path
+                d="M67.212 183.892c-18.394 41.166-26.216 89.523-23.251 143.732l1.063 19.502 26.248-6.297c-.02 16.11 1.07 39.621 5.831 66.395 5.156 28.992 13.582 55.895 25.035 79.944 14.502 30.444 33.908 56.381 57.678 77.077l15.592 13.575 8.951-17.194a480.203 480.203 0 0030.989 39.966c27.493 31.832 72.044 74.295 128.159 95.86l5.837 2.244 5.844-2.244c56.109-21.56 100.66-64.028 128.153-95.86a480.203 480.203 0 0030.989-39.966l8.95 17.194 15.592-13.575c23.771-20.696 43.176-46.626 57.678-77.077 11.454-24.056 19.88-50.952 25.036-79.944 4.76-26.773 5.85-50.291 5.83-66.395l26.248 6.297 1.07-19.502c2.964-54.208-4.857-102.566-23.252-143.738-14.897-33.344-36.657-61.946-64.67-85.016-19.879-16.37-40.004-27.558-56.86-35.069l46.243-20.443-26.015-16.286C501.482 9.113 465.94 0 424.535 0c-34.998 0-64.112 6.616-75.184 9.521C338.273 6.616 309.159 0 274.167 0 232.769 0 197.22 9.113 168.52 27.072l-26.015 16.286 46.244 20.443c-16.85 7.511-36.982 18.699-56.854 35.069-28.025 23.076-49.785 51.678-64.683 85.022zm8.711 122.329c-.045-23.576 2.29-45.699 6.94-66.227 19.794-.681 36.515 4.119 49.824 14.353 10.118 7.776 15.313 16.578 16.915 19.646-4.891 23.33-5.104 40.679-5.111 42.326l-.033 6.343 18.718 20.566a108.28 108.28 0 00-10.371 3.71c-14.009 5.824-31.229 16.545-46.367 36.178-4.287-35.367-1.894-61.239-1.868-61.524l2.257-22.785-30.904 7.414zM228.715 194.14c28.375-23.103 67.9-29.828 117.464-19.989l3.171.629 3.172-.629c49.564-9.839 89.082-3.113 117.464 19.989 42.32 34.453 49.986 96.703 51.361 116.277l-55.72 61.226c-11.759-18.743-23.725-30.931-24.73-31.942l-23.089 22.973c.104.104 10.475 10.688 20.391 26.527 8.951 14.281 19.387 35.879 18.297 57.639-.791 15.819-7.427 29.737-20.223 42.333l-7.764-2.86-73.737-27.169c1.35-10.682 4.385-23.764 11.221-28.589 12.304-8.685 33.292-22.435 0-24.607 0 0-7.958 4.346-16.649 4.346-8.685 0-16.643-4.346-16.643-4.346-33.292 2.173-12.304 15.923 0 24.607 6.836 4.825 9.871 17.907 11.22 28.589l-73.73 27.163-7.764 2.86c-12.764-12.563-19.399-26.449-20.216-42.217-2.198-42.385 38.292-83.881 38.701-84.296l-11.564-11.467 11.545 11.486-23.082-22.973c-1.005 1.012-12.972 13.199-24.73 31.942l-55.719-61.226c1.367-19.605 9.046-81.831 51.353-116.276zm171.712 337.267c-.396.24-1.044.513-2.601.513-3.729 0-9.353-1.596-15.307-3.282-9.086-2.574-20.397-5.778-33.168-5.778s-24.082 3.204-33.168 5.778c-5.954 1.687-11.577 3.282-15.306 3.282-1.55 0-2.206-.272-2.595-.513-1.706-2.426-2.049-11.207-.597-20.527l51.666-19.036 51.66 19.036c1.369 8.859 1.245 17.939-.584 20.527zm166.504-57.768c-9.288 19.393-20.819 36.605-34.4 51.399l-16.15-30.988-14.762 26.144c-.155.272-15.838 27.863-43.39 59.65-23.984 27.668-61.984 64.132-108.877 83.849-46.893-19.717-84.899-56.181-108.877-83.849-27.552-31.787-43.234-59.378-43.384-59.644l-14.749-26.216-16.163 31.048c-13.588-14.788-25.113-32.008-34.401-51.4-6.207-12.952-11.421-26.903-15.618-41.69 20.508-51.88 57.743-59.637 72.628-60.584l28.654 31.488c-5.241 14.029-8.568 29.537-7.764 45.608 1.388 27.701 14.463 51.906 38.856 71.947l7.212 5.921 8.438-3.106c.272 12.939 3.755 26.891 15.501 34.926 6.148 4.21 13.276 6.337 21.196 6.337 8.256 0 16.357-2.296 24.186-4.514 7.887-2.238 16.046-4.547 24.289-4.547 8.244 0 16.396 2.309 24.29 4.547 7.835 2.218 15.936 4.514 24.186 4.514 7.912 0 15.047-2.134 21.195-6.337 11.746-8.035 15.223-21.986 15.501-34.926l8.438 3.106 7.212-5.921c24.394-20.041 37.469-44.246 38.856-71.947.805-16.071-2.522-31.579-7.764-45.608l28.615-31.442c5.455.376 14.017 1.641 23.518 5.597 21.845 9.087 38.364 27.564 49.156 54.935-4.206 14.793-9.421 28.744-15.628 41.703zm25.008-174.799l2.199 22.732c.032.305 2.426 26.177-1.861 61.544-15.138-19.639-32.364-30.354-46.367-36.178a108.28 108.28 0 00-10.371-3.71l18.719-20.566-.033-6.343c-.006-1.647-.22-19.01-5.117-42.365 2.983-5.896 20.313-35.393 66.771-33.927 4.644 20.521 6.959 42.638 6.92 66.201l-30.86-7.388zm9.814-101.665a215.84 215.84 0 014.3 10.364c-28.946 1.395-48.98 12.174-61.608 22.337a96.74 96.74 0 00-6.72 5.941c-9.352-23.563-24.017-48.008-47.009-66.791-.688-.564-1.395-1.109-2.095-1.654 3.496-13.399 14.612-36.95 49.96-49.266a206.215 206.215 0 017.518 5.909c24.107 19.84 42.832 44.454 55.654 73.16zM216.788 40.595c17.032-5.331 36.217-8.023 57.38-8.023 38.785 0 70.144 9.333 70.436 9.424l4.748 1.434 4.729-1.427c.311-.097 31.67-9.43 70.455-9.43 21.163 0 40.348 2.692 57.38 8.023l-71.39 31.566 51.641 9.657c.278.052 18.77 3.645 43.124 15.787-20.69 11.953-32.65 27.175-39.473 39.732a97.885 97.885 0 00-5.812 12.816c-30.788-13.679-67.842-16.571-110.661-8.548-42.819-8.023-79.873-5.137-110.661 8.548a98.243 98.243 0 00-5.812-12.816c-6.816-12.543-18.763-27.753-39.421-39.7 24.27-12.063 42.819-15.767 43.072-15.819l51.64-9.657-71.375-31.567zm-65.286 84.322a207.9 207.9 0 018.626-6.816c20.054 6.933 34.634 18.167 43.416 33.499a64.709 64.709 0 016.46 15.819c-.675.532-1.356 1.057-2.024 1.602-22.992 18.783-37.65 43.228-47.009 66.791a98.85 98.85 0 00-6.719-5.941c-12.622-10.157-32.65-20.936-61.589-22.331a216.818 216.818 0 013.904-9.515c12.641-28.629 31.125-53.223 54.935-73.108z"
+              />
+            </svg>
+              <span class="ml-3 text-xl">Lion Heart</span>
+            </a>
+            <p class="mt-2 text-sm text-gray-500">A complete platform to sell and buy courses.</p>
+          </div>
+          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Home</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Courses</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Signup</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Signin</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Who we are?</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">About Us</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Feedback</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Our address</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Department</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Electronics</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Computer Science</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Mechanical Engineering</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Health</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Support</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">FAQs</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Pricing</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Plans</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Delete Account</a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 Lion Heart —
+              <a href="https://twitter.com/lionheart" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@lionheart</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
